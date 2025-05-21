@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Analysis Result</title>
+</head>
+<body>
+    <h2>Image Analysis Result</h2>
+    <p>Correctness Score: <strong>{{ correctness }}%</strong></p>
+
+    {% if correctness < 58 %}
+        <p style="color: red;">⚠ Warning: The image might not be trustworthy!</p>
+    {% else %}
+        <p style="color: green;">✅ The image appears to be correct.</p>
+    {% endif %}
+
+    <a href="/">Upload Another Image</a>
+</body>
+</html>

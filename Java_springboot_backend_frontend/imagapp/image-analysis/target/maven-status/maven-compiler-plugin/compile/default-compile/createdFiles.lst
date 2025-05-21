@@ -1,0 +1,6 @@
+com\imagecorrectness\image_analysis\controller\FileUploadController.class
+com\imagecorrectness\image_analysis\controller\TestController.class
+com\imagecorrectness\image_analysis\controller\ImageAnalysisController.class
+com\imagecorrectness\image_analysis\ImageAnalysisApplication.class
+com\imagecorrectness\image_analysis\service\ImageAnalysisService$1.class
+com\imagecorrectness\image_analysis\service\ImageAnalysisService.class
